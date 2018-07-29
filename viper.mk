@@ -19,6 +19,9 @@ $(call inherit-product, device/motorola/osprey/full_osprey.mk)
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 
+# Its official
+VIPER_BUILD_TYPE=OFFICIAL
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := osprey
 PRODUCT_NAME := viper_osprey
